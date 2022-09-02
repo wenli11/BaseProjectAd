@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_init_sdk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="初始化sdk"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/bt_show_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="展示插屏"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/bt_show_re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="展示视频"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/bt_show_offer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="展示积分墙"
+        android:onClick="onClick"/>
+
+</LinearLayout>

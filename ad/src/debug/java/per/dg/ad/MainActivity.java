@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData(){
-        adManager = AdManager.getInstance();
+        adManager = new AdManager.Builder().build();
     }
 
     public void onClick(View view) {
